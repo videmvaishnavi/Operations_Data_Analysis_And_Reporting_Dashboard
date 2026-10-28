@@ -44,24 +44,29 @@ The project analyzes operational task data to understand task completion, pendin
 ## 📂 Repository Structure
 
 ```text
-Operations-Data-Analysis/
+OPERATIONS-DATA-ANALYSIS/
 │
-├── README.md
+├── Employee_master.csv
+├── Employee_master.xlsx
 │
-├── Excel/
-│   └── Operations_Data_Analysis_Project_Dataset.xlsx
+├── Operations_Data_Analysis_Project_Dataset.xlsx
+├── operations_tasks_all.csv
 │
-├── SQL/
-│   ├── database_setup.sql
-│   └── analysis_queries.sql
+├── operations_db.pbix
 │
-├── PowerBI/
-│   └── Operations_Data_Analysis.pbix
-│
-└── Screenshots/
-    ├── overview.png
-    └── detailed_analysis.png
+└── op_db_tasks.sql
 ```
+
+### 📄 File Descriptions
+
+| File Name | Description |
+|---|---|
+| `Employee_master.csv` | Employee master data in CSV format, used for database import. |
+| `Employee_master.xlsx` | Excel version of the employee master dataset. |
+| `Operations_Data_Analysis_Project_Dataset.xlsx` | Main Excel workbook containing the task data, data cleaning, formulas, PivotTables, and Excel dashboard. |
+| `operations_tasks_all.csv` | Task dataset in CSV format, used to import the 220 task records into MySQL. |
+| `operations_db.pbix` | Power BI report containing the interactive Operations Performance Dashboard and Detailed Operational Analysis pages. |
+| `op_db_tasks.sql` | SQL script containing database-related SQL and operational analysis queries. |
 
 ---
 
